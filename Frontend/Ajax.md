@@ -1,0 +1,6 @@
+```
+var xhr = new XHttpRequest()
+
+```
+
+
