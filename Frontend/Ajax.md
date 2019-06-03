@@ -3,7 +3,7 @@ var xhr = new XHttpRequest()
 xhr.onreadystatechange = function () {
   if (xhr.readyState === 4) {
    if ((xhr.status >= 200 && xhr.status <=300) || xhr === 304) {
-     console.log()
+     console.log(xhr.responseText)
    }
   }
 }
