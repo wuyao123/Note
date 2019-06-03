@@ -13,4 +13,4 @@ document.body.insertBefore(script, document.body.firstChild)
 `<script>` 和 `<img>` 的 src 都有能力不受限制地从其他域加载资源
 
 缺点：
-- 
+- 如果
