@@ -14,4 +14,4 @@ document.body.insertBefore(script, document.body.firstChild)
 
 缺点：
 - 如果其他域不安全，很可能在响应中夹带一些恶意代码
-- 要确定JSONP请求是否失败
+- 要确定JSONP请求是否失败并不容易
