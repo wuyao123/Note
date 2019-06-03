@@ -1,6 +1,10 @@
 ```
 var xhr = new XHttpRequest()
-xhr.on
+xhr.onreadystatechange = function () {
+  if (xhr.readyState === 4) {
+   if () {}
+  }
+}
 
 xhr.open('get', 'example.text', false)
 xhr.send(null)
