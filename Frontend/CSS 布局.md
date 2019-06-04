@@ -5,7 +5,7 @@
 **经典布局**
 - 两栏自适应布局：`float + overflow: hidden`
   - 左边盒子 `float: left`
-  - 右边
+  - 右边盒子 `overflow: hidden`，产生BFC
 
 
 - 圣杯：父盒子中的三个子盒子 `float: left`
