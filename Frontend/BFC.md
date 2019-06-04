@@ -9,3 +9,6 @@
 **BFC 应用**
 - 防止 margin 重叠
   - 两个相邻Box垂直方向margin重叠
+  - 相邻Box水平方向margin重叠
+  - 嵌套元素的margin重叠
+- 清除内部浮动
