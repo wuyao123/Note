@@ -19,3 +19,5 @@ obj.foo()
 const c = new foo()
 ```
 对于 `new` 的方式来说，`this` 被永远绑定在了 `c` 上面，不会被任何方式改变 `this`
+
+**箭头函数**
