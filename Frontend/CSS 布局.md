@@ -4,7 +4,9 @@
 
 **经典布局**
 - 两栏自适应布局
-  -  
+  - `float + overflow: hidden`
+
+
 - 圣杯：父盒子中的三个子盒子 `float: left`
   - 中间的盒子 `width: 100%`，独占一行
   - 左边的盒子 `margin-left:-100%`，把最左边的盒子拉上去
