@@ -44,6 +44,8 @@ fn.bind().bind(a)() // => window
 
 
 **优先级**
-1. new
-2. bind 等
-3. 
+1. `new`
+2. `bind` 等
+3. `obj.foo()`这种调用方式
+4. `foo()`这种调用方式
+同时，箭头函数的
