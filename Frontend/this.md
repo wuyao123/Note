@@ -10,4 +10,9 @@ const obj = {
   a: 2,
   foo: foo
 }
+obj.foo()
 ```
+```
+const c = new foo()
+```
+- 对于直接调用的 ``
