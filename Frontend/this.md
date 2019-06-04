@@ -32,3 +32,6 @@ function a() {
 console.log(a()()())
 ```
 - 箭头函数中没有 `this`，箭头函数中的 `this` 只取决包裹箭头函数的第一个函数的 `this`
+
+**bind**
+- `this` 取决于第一个参数，如果参数为空，
