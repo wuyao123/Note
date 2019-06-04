@@ -34,5 +34,10 @@ console.log(a()()())
 - 箭头函数中没有 `this`，箭头函数中的 `this` 只取决包裹箭头函数的第一个函数的 `this`
 
 **bind**
+```
+let a = {}
+let fn = function () { console.log(this) }
+fn.bind().bind(a)() // => windo
+```
 - `this` 取决于第一个参数，如果参数为空，则 `this` 为 `window`
-- 不管给函数 bind 几次，fn 中的 this 永远由第一次 bind 决定，所以结果永远是 window
+- 不管给函数 `bind` 几次，`fn` 中的 `this` 永远由第一次 `bind` 决定，所以结果永远是 `window`
