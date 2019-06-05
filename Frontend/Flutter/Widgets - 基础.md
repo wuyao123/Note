@@ -36,4 +36,20 @@ Text("Hello world",
 );
 ```
 ## TextSapn
-
+```js
+Text.rich(TextSpan(
+    children: [
+     TextSpan(
+       text: "Home: "
+     ),
+     TextSpan(
+       text: "https://flutterchina.club",
+       style: TextStyle(
+         color: Colors.blue
+       ),  
+       recognizer: _tapRecognizer
+     ),
+    ]
+))
+```
+## DefaultTextStyle
