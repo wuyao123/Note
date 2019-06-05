@@ -18,7 +18,9 @@ promise.then(function(value) {
 
 **2. `.catch()`**
 
-**3. `.finally()`**  不管 `Promise` 对象的状态如何，都会执行
+**3. `.finally()`**  
+
+不管 `Promise` 对象的状态如何，都会执行
 
 **4. `Promise.all()`**
 
