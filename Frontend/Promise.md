@@ -16,7 +16,7 @@ promise.then(function(value) {
 
 **`.then()`**
 **`.catch()`**
-**`.then()`**
+**`.finally()`** 不管 `Promise` 对象的状态如何，都会执行
 
 
 
