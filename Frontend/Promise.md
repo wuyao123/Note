@@ -19,4 +19,6 @@ promise.then(function(value) {
 **`.finally()`** 不管 `Promise` 对象的状态如何，都会执行
 
 
+**`Promise.all()`**
 
+```ja
