@@ -91,4 +91,17 @@ RaisedButton(
 ### FlatButton 扁平按钮
 
 ```js
-``
+FlatButton(
+  child: Text("normal"),
+  onPressed: () => {},
+)
+```
+
+### OutlineButton 带边框
+
+```js
+OutlineButton(
+  child: Text("normal"),
+  onPressed: () => {},
+)
+```
