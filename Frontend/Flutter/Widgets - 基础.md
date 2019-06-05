@@ -87,3 +87,8 @@ RaisedButton(
   onPressed: () => {},
 );
 ```
+
+### FlatButton 扁平按钮
+
+```js
+``
