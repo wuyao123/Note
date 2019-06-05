@@ -105,3 +105,31 @@ OutlineButton(
   onPressed: () => {},
 )
 ```
+
+### IconButton 可点击的 icon
+
+```js
+IconButton(
+  icon: Icon(Icons.thumb_up),
+  onPressed: () => {},
+)
+```
+
+### 自定义按钮外观
+
+```js
+const FlatButton({
+  ...  
+  @required this.onPressed, //按钮点击回调
+  this.textColor, //按钮文字颜色
+  this.disabledTextColor, //按钮禁用时的文字颜色
+  this.color, //按钮背景颜色
+  this.disabledColor,//按钮禁用时的背景颜色
+  this.highlightColor, //按钮按下时的背景颜色
+  this.splashColor, //点击时，水波动画中水波的颜色
+  this.colorBrightness,//按钮主题，默认是浅色主题 
+  this.padding, //按钮的填充
+  this.shape, //外形
+  @required this.child, //按钮的内容
+})
+```
