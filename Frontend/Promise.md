@@ -15,6 +15,8 @@ promise.then(function(value) {
 ```
 
 **`.then()`**
+**`.catch()`**
+**`.then()`**
 
 
 
