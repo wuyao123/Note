@@ -78,3 +78,12 @@ DefaultTextStyle(
 ```
 
 ## 按钮
+
+### RaisedButton 漂浮按钮
+
+```js
+RaisedButton(
+  child: Text("normal"),
+  onPressed: () => {},
+);
+```
