@@ -6,4 +6,7 @@ const promise = new Promise(function(resolve, reject) {
     reject(error);
   }
 })
+
+promise.then(function() {
+})
 ```
