@@ -1,8 +1,8 @@
 [<<Flutter 实战>>](https://book.flutterchina.club)
 
-# 文本、字体样式
+## 文本、字体样式
 
-## Text
+### Text
 ```js
 Text("Hello world",
   textAlign: TextAlign.center,
@@ -21,7 +21,7 @@ Text("Hello world",
 - `maxLines`、`overflow`
 - `textScaleFactor`
 
-## TextStyle
+### TextStyle
 ```js
 Text("Hello world",
   style: TextStyle(
@@ -35,7 +35,7 @@ Text("Hello world",
   ),
 );
 ```
-## TextSapn
+### TextSapn
 ```js
 Text.rich(TextSpan(
     children: [
@@ -52,7 +52,7 @@ Text.rich(TextSpan(
     ]
 ))
 ```
-## DefaultTextStyle
+### DefaultTextStyle
 ```js
 DefaultTextStyle(
   //1.设置文本默认样式  
@@ -76,3 +76,5 @@ DefaultTextStyle(
   ),
 );
 ```
+
+## 按钮
