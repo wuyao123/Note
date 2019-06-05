@@ -14,12 +14,13 @@ promise.then(function(value) {
 })
 ```
 
-**`.then()`**
+**1. `.then()`**
 
-**`.catch()`**
+**2. `.catch()`**
 
-**`.finally()`** 不管 `Promise` 对象的状态如何，都会执行
-**`Promise.all()`**
+**3. `.finally()`**  不管 `Promise` 对象的状态如何，都会执行
+
+**4. `Promise.all()`**
 
 ```javascript
 const p = Promise.all([p1, p2, p3])
@@ -27,6 +28,6 @@ const p = Promise.all([p1, p2, p3])
 - 只有`p1`、`p2`、`p3`的状态都变成`fulfilled`，`p`的状态才会变成`fulfilled`，此时`p1`、`p2`、`p3`的返回值组成一个数组，传递给p的回调函数。
 - 只要`p1`、`p2`、`p3`之中有一个被`rejected`，`p`的状态就变成`rejected`，此时第一个被`reject`的实例的返回值，会传递给`p`的回调函数。
 
-**`Promise.resolve()`**
+**5. `Promise.resolve()`**
 
 将现有的对象转为 `Promise` 对象
