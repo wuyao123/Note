@@ -13,3 +13,5 @@ promise.then(function(value) {
   // failure
 })
 ```
+
+****
