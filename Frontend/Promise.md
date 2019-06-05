@@ -7,6 +7,9 @@ const promise = new Promise(function(resolve, reject) {
   }
 })
 
-promise.then(function() {
+promise.then(function(value) {
+  // success
+}, function(error){
+  // failure
 })
 ```
