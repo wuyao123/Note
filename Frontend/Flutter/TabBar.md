@@ -21,3 +21,17 @@ const TabBar({
     this.onTap,// 点击事件
   })
 ```
+
+### TabBarView
+ 
+**参数**
+```js
+ const TabBarView({
+    Key key,
+    @required this.children, // 每页的view
+    this.controller, // 控制器
+    this.physics,
+    this.dragStartBehavior = DragStartBehavior.start,
+  })
+
+```
