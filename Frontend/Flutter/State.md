@@ -47,3 +47,7 @@ widget是immutable的，发生变化的时候需要重建，所以谈不上状�
 - 正常的退出流程中会执行deactivate然后执行dispose。但是也会出现deactivate以后不执行dispose，直接加入树中的另一个节点的情况。
 
 - 这里的状态改变包括两种可能：1.通过setState内容改变 2.父节点的state状态改变，导致孩子节点的同步变化
+
+## StatelessWidget 和 StatefulWidget的区别
+
+StatelessWidget是状态不可变的widget。初始状态设置以后就不可再变化。如果需要变化需要重新创建。StatefulWidget可以保存自己的状态。那问题是既然widget都是immutable的，怎么保存状态？其实Flutter是通过引入了State来保存状态。当State的状态改变时，能重新构建本节点以及孩子的Widget树来进行UI变化。注意：如果需要主动改变State的状态，需要通过setState()方法进行触发，单纯改变数据是不会引发UI改变的。
