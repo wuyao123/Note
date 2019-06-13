@@ -1,6 +1,7 @@
 > 参考文章：
 > 1. [Flutter 核心概念详解： Widget、State、Context 及 InheritedWidget](https://juejin.im/post/5c768ad2f265da2dce1f535c#heading-16)
 > 2. [Flutter部件内部状态管理小结](https://juejin.im/post/5cff0e3d6fb9a07eab6876a8#heading-5)
+> 3. [Flutter入门三部曲(2) - 界面开发基础](https://cloud.tencent.com/developer/article/1188468)
 
 `Widget`分为两种：无状态 `widget` 和有状态 `widget`
 
