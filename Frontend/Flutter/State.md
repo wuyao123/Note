@@ -38,12 +38,12 @@ widget是immutable的，发生变化的时候需要重建，所以谈不上状�
 
 ### 几个注意点
 
-didChangeDependencies有两种情况会被调用。
+- didChangeDependencies有两种情况会被调用。
 
-创建时候在initState 之后被调用
+  - 创建时候在initState 之后被调用
 
-在依赖的InheritedWidget发生变化的时候会被调用
+  - 在依赖的InheritedWidget发生变化的时候会被调用
 
-正常的退出流程中会执行deactivate然后执行dispose。但是也会出现deactivate以后不执行dispose，直接加入树中的另一个节点的情况。
+- 正常的退出流程中会执行deactivate然后执行dispose。但是也会出现deactivate以后不执行dispose，直接加入树中的另一个节点的情况。
 
-这里的状态改变包括两种可能：1.通过setState内容改变 2.父节点的state状态改变，导致孩子节点的同步变化
+- 这里的状态改变包括两种可能：1.通过setState内容改变 2.父节点的state状态改变，导致孩子节点的同步变化
