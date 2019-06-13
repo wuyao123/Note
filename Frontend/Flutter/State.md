@@ -18,6 +18,10 @@
 3. 在 `State` 类里创建状态（成员变量），并实现 `build` 方法
 
 
+## state 生命周期
+
+widget是immutable的，发生变化的时候需要重建，所以谈不上状态。StatefulWidget 中的状态保持其实是通过State类来实现的。State拥有一套自己的生命周期，下面做一个简单的介绍。
+
 
 
 
