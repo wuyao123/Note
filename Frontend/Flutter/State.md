@@ -22,6 +22,15 @@
 
 widget是immutable的，发生变化的时候需要重建，所以谈不上状态。StatefulWidget 中的状态保持其实是通过State类来实现的。State拥有一套自己的生命周期，下面做一个简单的介绍。
 
+|名称|状态|
+|-|-|
+|initState|插入渲染树时调用，只调用一次|
+|initState|插入渲染树时调用，只调用一次|
+|initState|插入渲染树时调用，只调用一次|
+|initState|插入渲染树时调用，只调用一次|
+|initState|插入渲染树时调用，只调用一次|
+|initState|插入渲染树时调用，只调用一次|
+
 
 
 
