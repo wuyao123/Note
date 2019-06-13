@@ -25,11 +25,14 @@ widget是immutable的，发生变化的时候需要重建，所以谈不上状�
 |名称|状态|
 |-|-|
 |initState|插入渲染树时调用，只调用一次|
-|initState|插入渲染树时调用，只调用一次|
-|initState|插入渲染树时调用，只调用一次|
-|initState|插入渲染树时调用，只调用一次|
-|initState|插入渲染树时调用，只调用一次|
-|initState|插入渲染树时调用，只调用一次|
+|didChangeDependencies|state依赖的对象发生变化时调用|
+|didUpdateWidget|组件状态改变时候调用，可能会调用多次|
+|didUpdateWidget|插入渲染树时调用，只调用一次|
+|build|插入渲染树时调用，只调用一次|
+|deactivate|当移除渲染树的时候调用
+
+|
+|dispose|组件即将销毁时调用|
 
 
 
