@@ -10,7 +10,11 @@ Promise.all = function(promises) {
     }
   }
   return new Promise((resolve, reject) => {
-    for()
+    for(let i=0;i<promises.length;i++){
+      promises[i].then(data => {
+      
+      })
+    }
   })
 }
 
