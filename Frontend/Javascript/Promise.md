@@ -1,4 +1,4 @@
-```
+```javascript
 class Promise {
   constructor(executor) {
     this.status = 'pendding'
@@ -21,6 +21,8 @@ class Promise {
 
      try{
        executor(resolve, reject)
+     }catch(e){
+       reject(e)
      }
   }
 }
