@@ -6,8 +6,10 @@ class Promise {
     this.reason = undefined
 
     let resolve = (data) => {
-      if() {
-    }
+      if(this.status === 'pendding') {
+        this.status = 'resolve'
+        this.value = data
+      }
     }
   }
 }
