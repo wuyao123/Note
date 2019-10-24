@@ -69,6 +69,10 @@ macrotask （又称宏任务）：每次执行执行栈的代码就是一个宏�
 
 microtask（又称微任务）：当宏任务执行结束后立即执行的任务
 
+setTimeout 宏任务
+Promise.then 
+
+
 ## WebWorker
 
 
