@@ -18,6 +18,10 @@ class Promise {
         this.reason = data
       }
     }
+
+     try{
+       executor(resolve, reject)
+     }
   }
 }
 
