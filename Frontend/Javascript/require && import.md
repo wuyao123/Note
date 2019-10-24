@@ -12,3 +12,7 @@ ES6 模块与 CommonJS 模块的差异
 1. CommonJS 模块输出的是一个值的拷贝，ES6 模块输出的是值的引用
 2. CommonJS 模块是运行时加载，ES6 模块是编译时输出
 
+### 参考文章
+1. [CommonJS,AMD,CMD,ES6,require 和 import 详解](https://juejin.im/post/5afa95a46fb9a07acc11de16)
+
+
