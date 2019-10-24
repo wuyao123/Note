@@ -1,6 +1,8 @@
 ```
-class Promise{
-
+class Promise {
+  constructor(executor) {
+    
+  }
 }
 
 ```
