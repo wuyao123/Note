@@ -71,7 +71,7 @@ microtask（又称微任务）：当宏任务执行结束后立即执行的任�
 
 setTimeout 宏任务
 Promise.then 微任务
-new Promise在实例化的过程中所执行的
+new Promise在实例化的过程中所执行的代码都是同步的，then中注册的回调才是异步执行的
 
 
 ## WebWorker
