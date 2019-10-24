@@ -49,3 +49,6 @@ Promise.all = function(promises) {
   })
 }
 ```
+
+### 参考文章：
+1. []
