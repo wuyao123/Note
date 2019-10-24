@@ -4,6 +4,11 @@ class Promise {
     this.status = 'pendding'
     this.value = undefined
     this.reason = undefined
+
+    let resolve = (data) => {
+      if() {
+    }
+    }
   }
 }
 
