@@ -9,5 +9,6 @@ import
 3. 按需加载
 
 ES6 模块与 CommonJS 模块的差异
-1. CommonJS 模块输出的是一个值的拷贝，ES6 模块
+1. CommonJS 模块输出的是一个值的拷贝，ES6 模块输出的是值的引用
+2. CommonJS 模块是运行时加载，ES6 模块是编译时输出
 
