@@ -1,7 +1,7 @@
 ```
 class Promise {
   constructor(executor) {
-    
+    this.status = 'pendding'
   }
 }
 
