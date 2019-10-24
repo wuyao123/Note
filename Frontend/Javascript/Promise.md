@@ -6,9 +6,12 @@ Promise.all = function(promises) {
     arr[index] = data
     i++
     if(i === promises.length) {
-      
+      resolve(arr)
     }
   }
+  return new Promise((resolve, reject) => {
+    for()
+  })
 }
 
 ```
