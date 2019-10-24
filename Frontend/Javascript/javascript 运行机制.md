@@ -46,6 +46,9 @@
    - 在 XMLHttpRequest 在连接后是通过浏览器新开一个线程请求
    - 若有回调函数，将这个回调函数放入到事件队列中
 
+![title](https://i.loli.net/2019/10/24/hPt5TyB4YEWQsHA.png)
+
+
 > 注意：GUI 线程和 JS 线程是互斥的
 
 ### 为什么是单线程的语言？
