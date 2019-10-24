@@ -11,6 +11,12 @@ class Promise {
         this.value = data
       }
     }
+
+    let reject = (data) => {
+      if(this.status === 'pendding'){
+        this.status
+      }
+    }
   }
 }
 
