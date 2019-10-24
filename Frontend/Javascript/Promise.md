@@ -14,7 +14,8 @@ class Promise {
 
     let reject = (data) => {
       if(this.status === 'pendding'){
-        this.status
+        this.status = 'reject'
+        this.reason = data
       }
     }
   }
