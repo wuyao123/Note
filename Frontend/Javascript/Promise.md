@@ -17,5 +17,4 @@ Promise.all = function(promises) {
     }
   })
 }
-
 ```
