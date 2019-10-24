@@ -1,4 +1,7 @@
+```
 
+
+```
 
 ```javascript
 Promise.all = function(promises) {
